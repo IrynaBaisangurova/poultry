@@ -1,0 +1,58 @@
+.courses-subtitle {
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 28px;
+}
+.courses-title {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+
+.section-courses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100lvh;
+  background: linear-gradient(rgba(46, 47, 66, 0.5), rgba(46, 47, 66, 0.5)),
+    url(../images/mobile/bg-course@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-resolution: 192dpi) {
+  .section-courses {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.5),
+        rgba(46, 47, 66, 0.5)
+      ),
+      url(../images/mobile/bg-course@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.courses-title {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 46px;
+  color: var(--lightgrey);
+}
+.courses-subtitle {
+  margin-bottom: 28px;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--lightgrey);
+}
+
+.add-image {
+  border-radius: 0%;
+  margin-bottom: 20px;
+  border: 3px solid var(--white);
+  padding: 4px;
+}
+.add-font {
+  font-size: 14px;
+}
