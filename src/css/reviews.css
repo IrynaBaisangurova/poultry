@@ -23,11 +23,11 @@
   height: 100%;
   overflow: hidden;
 }
-.slider-wrapper {
+/* .slider-wrapper {
   overflow: hidden;
   max-width: 320px;
   margin: 0 10px 55px;
-}
+} */
 
 .swiper-wrapper {
   display: flex;
@@ -100,13 +100,13 @@
 
 .reviews-text {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: var(--dark);
   text-align: start;
-  min-height: 210px;
+  min-height: 230px;
 }
 
 .arrow-prev use,
@@ -171,8 +171,6 @@
     width: calc((100%-60px) / 4);
     /* width: 320px; */
   }
-  .reviews-text {
-    font-size: 14px;
-  }
+
 
 }
