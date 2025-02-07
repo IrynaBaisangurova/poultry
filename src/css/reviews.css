@@ -126,9 +126,9 @@
   top: 460px;
 } 
 @media screen and (min-width: 768px) {
-  /* .reviews-section {
+  .reviews-section {
     padding: 96px 0 96px 0;
-  } */
+  }
   .reviews-list .swiper-wrapper {
     display: flex;
     flex-direction: row;
@@ -155,7 +155,7 @@
     padding: 0 32px;
   }
   .reviews-section {
-    padding: 164px 0 164px 0;
+    padding: 100px 0;
   }
   .slider-wrapper {
     max-width: 1400px;

@@ -55,6 +55,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 38px;
+    margin-bottom: 0;
   }
   .about-grid-items {
     margin-bottom: 14px;
@@ -102,7 +103,7 @@
   /* margin-left: 55px; */
   right: 0;
 }
-.swiper-slide.about.swiper-slide-active {
+.swiper-slide .about .swiper-slide-active {
   background: var(--navy-blue);
 }
 .arrow-next-about {
@@ -134,9 +135,9 @@
     width: 1200px;
     height: 100%;
   }
-  /* .swiper-about-container {
-    padding: 0 32px;
-  } */
+  .swiper-about-container {
+   margin-top: 0;
+  }
   .swiper-button-next-2 {
     margin-left: 22px;
   }

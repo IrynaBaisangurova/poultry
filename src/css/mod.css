@@ -348,9 +348,9 @@
         font-weight: 300;
         padding-left: 20px;
     }
-    #mod {
+    /* #mod {
         padding-bottom: 164px;
-    }
+    } */
     .buttons-module {
         display: flex;
         flex-direction: row;
