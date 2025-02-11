@@ -20,9 +20,9 @@
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding: 0 32px;
+    padding: 0 40px;
   }
   .section {
-    padding: 150px 0;
+    padding: 110px 0;
   }
 }

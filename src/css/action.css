@@ -3,8 +3,8 @@
 
 .section-action {
   background-color: var(--white);
-  padding-top: 90px;
-  padding-bottom: 90px;
+  /* padding-top: 90px;
+  padding-bottom: 90px; */
 }
 .container-action {
   display: flex;
