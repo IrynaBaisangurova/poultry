@@ -20,7 +20,7 @@
   margin-bottom: 28px;
 }
 .sale {
-  font-size: 32px;
+  font-size: 34px;
   line-height: 44px;
   font-weight: 600;
   margin-bottom: 16px;
@@ -52,6 +52,7 @@
   padding: 20px;
   border-radius: 8px;
   background-color: var(--navy-blue);
+  margin: auto;
 }
 
 /* #endregion action */

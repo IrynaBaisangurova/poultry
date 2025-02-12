@@ -16,19 +16,33 @@
 .subtitle-about {
   text-align: start;
   margin-bottom: 12px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
 }
 
 .about-items {
   margin-bottom: 12px;
- 
+  font-size: 18px;
 }
-.image-about {
-  min-width: 320px;
-  padding: 20px;
-  margin: 16px;
+.image-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+}
+.about-block {
+  padding: 0 20px;
   background: var(--white); 
+}
+.subtitle-swiper-about {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+ }
+hr {
+  color: black;
+  margin: 14px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -76,11 +90,7 @@
     font-weight: 300;
     margin-bottom: 14px;
   }
-  .image-about {
-    padding: 20px;
-    margin-bottom: 16px;
-    background: var(--white); 
-  }
+
 
   
 }

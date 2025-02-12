@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  justify-content: center;
+  /* align-items: center; */
 }
 .title-reviews {
   font-family: 'Montserrat', sans-serif;
@@ -23,11 +25,11 @@
   height: 100%;
   overflow: hidden;
 }
-/* .slider-wrapper {
+.slider-wrapper {
   overflow: hidden;
   max-width: 320px;
-  margin: 0 10px 55px;
-} */
+  margin: 0 auto;
+}
 
 .swiper-wrapper {
   display: flex;
@@ -40,11 +42,13 @@
 
 .swiper-slide {
   flex-shrink: 0;
+  /* width: 100%;
+  margin: 0 auto; */
   min-height: 450px;
   text-align: start;
   border: 1px solid var(--dark);
   border-radius: 20px;
-  padding: 32px 24px;
+  padding: 32px 20px;
   background-color: var(--lightgrey);
 }
 .swiper-button {
@@ -101,12 +105,13 @@
 .reviews-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: var(--dark);
-  text-align: start;
-  min-height: 240px;
+  min-height: 340px;
+  margin: 14px 0 40px;
+  text-align: left;
 }
 
 .arrow-prev use,
