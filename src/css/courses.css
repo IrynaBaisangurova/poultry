@@ -38,13 +38,13 @@
   line-height: 24px;
   text-align: center;
   margin-bottom: 46px;
-  color: var(--lightgrey);
+  color: var(--dark);
 }
 .courses-subtitle {
   margin-bottom: 28px;
   font-size: 20px;
   line-height: 24px;
-  color: var(--lightgrey);
+  color: var(--dark);
 }
 
 .add-image {
@@ -56,3 +56,16 @@
 .add-font {
   font-size: 14px;
 }
+
+@media screen and (min-width: 1440px) {
+  /* .course-wrapper {
+    
+  } */
+  .card-item-course .add-card .swiper-slide {
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+

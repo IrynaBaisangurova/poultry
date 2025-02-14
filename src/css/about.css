@@ -108,14 +108,14 @@ hr {
 }
 
 .button-about-swiper {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: none;
+  background-color: var(--navy-blue);
 }
 .rotate {
   position: absolute;
   min-width: 170px;
   min-height: 170px;
-  /* border: 1px solid var(--navy-blue); */
   background-color: transparent;
   outline: 2px solid var(--navy-blue);
   transform: rotate(45deg);
@@ -140,9 +140,10 @@ hr {
 }
 .swiper-button-next-2 {
   position: absolute;
-  margin-top: 51px;
-  /* margin-left: 55px; */
-  right: 0;
+  top: 440px;
+  /* left: 55px; */
+  right: 260px;
+
 }
 .swiper-slide .about .swiper-slide-active {
   background: var(--navy-blue);

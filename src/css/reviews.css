@@ -119,14 +119,14 @@
   width: 100%;
   height: 100%;
   display: block;
+  /* stroke: var(--navy-blue); */
 }
 .user-link {
 	width: 40px;
   height: 40px;
 }
 .user-link .icons {
-  fill: var(--lightgrey);
-
+  fill: var(--lightgrey); 
   left: 32px;
   top: 460px;
 } 
