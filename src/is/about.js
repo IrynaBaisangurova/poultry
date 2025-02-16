@@ -16,16 +16,21 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '.swiper-pagination',
       clickable: true,
     },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
     keyboard: {
       enabled: true,
       onlyInViewport: true,
     },
+    speed: 1000,
     mousewheel: true,
 
     loopFillGroupWithBlank: true,
     breakpoints: {
-      640: {
-        slidesPerView: 2,
+      375: {
+        slidesPerView: 1,
       },
 
       768: {
@@ -33,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
 
       1440: {
-        slidesPerView: 6,
+        slidesPerView: 2,
       },
     },
   });
