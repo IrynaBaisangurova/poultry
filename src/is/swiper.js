@@ -1,3 +1,5 @@
+
+
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
 	grabCursor: true,
@@ -35,6 +37,5 @@ breakpoints: {
 		slidesPerView: 2
 	}
 }
-
 
 });
