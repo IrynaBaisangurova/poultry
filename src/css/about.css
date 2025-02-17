@@ -79,13 +79,7 @@ hr {
   .about-grid {
     margin-bottom: 56px;
   }
- .about-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-   grid-template-rows: repeat(2, 1fr); 
-    column-gap: 8px;
-    margin-bottom: 0;
-  }  
+ 
   /* .about-grid  {
     display: grid;
     grid-template-columns: 1fr;
@@ -237,9 +231,18 @@ hr {
 }
 
 @media screen and (min-width: 1440px) {
-  .about-container {
+  /* .about-container {
     width: 1240px;
-  }
+  } */
+
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+   grid-template-rows: repeat(2, 1fr); 
+    column-gap: 8px;
+    margin-bottom: 0;
+  } 
   .swiper-about {
     min-width: 420px;
     height: 100%;

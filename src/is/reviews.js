@@ -13,16 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let swiper
 
-  function updateButtonsState() {
+  function updateButtons() {
       
     if (!swiper) return;
-
+  
     if (swiper.isBeginning) {
       prevButton.setAttribute('disabled', 'true');
     } else {
       prevButton.removeAttribute('disabled');
     }
-
+  
     if (swiper.isEnd) {
       nextButton.setAttribute('disabled', 'true');
     } else {
@@ -31,31 +31,34 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   swiper = new Swiper('.slider-wrapper', {
-    watchOverflow: false,
+    watchOverflow: true,
+    centeredSlides: true,
     loop: true,
     direction: 'horizontal',
     simulateTouch: true,
     grabCursor: true,
+    spaceBetween: 16,
     slidesPerView: 1,
     speed: 1000,
     keyboard: {
       enabled: true,
       onlyInViewport: true,
     },
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: false
+    // },
     navigation: {
       nextEl: '.button-next',
       prevEl: '.button-prev',
     },
     on: {
-      slideChange: updateButtonsState,
-      init: updateButtonsState,
+      slideChange: updateButtons,
+      init: updateButtons,
     },
     breakpoints: {
           768: { slidesPerView: 2 },
+          1200: { slidesPerView: 3 },
           1440: { slidesPerView: 4 },
         },
   });

@@ -1,12 +1,3 @@
-import Swiper from 'swiper';
-import 'swiper/css';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css/navigation';
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   const accordionItems = document.querySelectorAll('.accordion-item');
 

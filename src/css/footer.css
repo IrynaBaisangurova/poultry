@@ -181,8 +181,11 @@ footer .logo .logo-link {
   
 }
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding: 90px 0;
+  }
   .container-footer {
-    padding: 0 66px;
+   
     flex-direction: row;
     align-items: start;
     justify-content: space-around;
