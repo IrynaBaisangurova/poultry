@@ -44,6 +44,10 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '.swiper-pagination',
       clickable: true,
     },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
     keyboard: {
       enabled: true,
       onlyInViewport: true,
