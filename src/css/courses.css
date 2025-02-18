@@ -10,6 +10,7 @@
 .courses-subtitle {
   margin-bottom: 0;
   font-size: 12px;
+  font-weight: 600;
   line-height: 18px;
 }
 .courses-title {
@@ -42,12 +43,13 @@
   margin: 0;
   background: var(--lightgrey);
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: normal;
   text-transform: uppercase;
 }
 .add-subtitle {
   font-size: 10px;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0;
 }
@@ -165,6 +167,7 @@
   .courses-subtitle {
     margin-bottom: 32px;
     font-size: 24px;
+    font-weight: 600;
     line-height: 28px;
   }
   .courses-title {
@@ -181,7 +184,8 @@
     }
 
   .courses-text {
-    margin-bottom: 64px;
+    min-height: 250px;
+    margin-bottom: 42px;
   }
 
   .courses-image {

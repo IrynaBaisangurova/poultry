@@ -33,7 +33,7 @@ import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper-about', {
-    slidesPerView: 2,
+    slidesPerView: 3,
     modules: [Navigation, Pagination],
     navigation: {
       nextEl: '.swiper-button-next-2',
@@ -44,10 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '.swiper-pagination',
       clickable: true,
     },
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
     keyboard: {
       enabled: true,
       onlyInViewport: true,
@@ -57,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loopFillGroupWithBlank: true,
     breakpoints: {
       640: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
 
       768: {
