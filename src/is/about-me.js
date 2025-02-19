@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
 
       1440: {
-        slidesPerView: 6,
+        slidesPerView: 4,
       },
     },
   });
