@@ -57,7 +57,7 @@ footer .logo .logo-link {
 .footer-list  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     gap: 6px;
     margin-bottom: 32px;
   }
@@ -101,7 +101,7 @@ footer .logo .logo-link {
   background-color: var(--dark);
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons {
+/* .icons {
   fill: var(--dark);
 }
 .items-link:hover,
@@ -115,7 +115,7 @@ footer .logo .logo-link {
 .items-link:hover + .icons,
 .items-link:focus + .icons {
   fill: var(--dark);
-}
+} */
 .footer-contacts {
   color: var(--lightgrey);
   margin-bottom: 26px;
@@ -130,6 +130,12 @@ footer .logo .logo-link {
 }
  .footer-down {
   border-top: 3px solid #fafafa ;
+ }
+ .icons-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
  }
 @media screen and (min-width: 768px){
   .container-footer {

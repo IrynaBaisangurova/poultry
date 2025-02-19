@@ -215,7 +215,14 @@
   margin-bottom: 0;
   text-align: center;
 }
+@media (min-width: 377px) and (max-width: 767px) {
+  .buttons-module {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
 
+}
 @media (min-width: 768px) and (max-width: 1439px) {
   .container-module {
     flex-direction: column;

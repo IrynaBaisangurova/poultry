@@ -21,7 +21,7 @@
 .title-reviews {
   font-family: var(--first-family);
   font-weight: 600;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: var(--dark);
@@ -148,8 +148,10 @@
   .slider-wrapper {
     max-width: 768px;
   }
-
+  .title-reviews {
+    font-size: 28px;
   }
+}
   @media (min-width: 769px) and (max-width: 1439px) {
     .reviews-section {
       background-image: url(../img/reviews/bg-tab@1x.jpg);
@@ -251,5 +253,8 @@
   stroke: var(--dark); 
   cursor: pointer;
   transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
+  .title-reviews {
+    font-size: 34px;
+  }
 }

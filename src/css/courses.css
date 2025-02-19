@@ -119,8 +119,8 @@
     padding: 36px 26px;
   }
   .courses-text {
-    margin-bottom: 34px;
-    min-height: 280px;
+    margin-bottom: 24px;
+    min-height: 386px;
   }
   .courses-subtitle {
     font-size: 18px;
@@ -142,11 +142,15 @@
   }
   .courses-text {
     margin-bottom: 44px;
-    min-height: 300px;
+    min-height: 250px;
   }
   .courses-image {
     padding: 30px 24px;
   }
+  .courses-subtitle {
+    font-size: 22px;
+  }
+
 }
 
 

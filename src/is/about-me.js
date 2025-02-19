@@ -33,7 +33,7 @@ import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', () => {
   const swiper = new Swiper('.swiper-about', {
-    slidesPerView: 3,
+    slidesPerView: 2,
     modules: [Navigation, Pagination],
     navigation: {
       nextEl: '.swiper-button-next-2',

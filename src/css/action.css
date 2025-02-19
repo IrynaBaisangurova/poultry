@@ -95,6 +95,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap: 12px;
   }
   .sub-buy .subtitle-buy {
@@ -114,17 +115,7 @@
   }
   /* #endregion action */
  
-  .container-thanks {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .title-thanks {
-    font-size: 28px;
-    line-height: 38px;
-  }
+  
 }
 
 @media screen and (min-width: 1440px) {
